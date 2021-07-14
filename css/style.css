@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #000000 !important;
+    line-height: 24px;
+    margin: 0px 10px;
+    position: relative;
+}
+
+.nav-item .sign-in-button {
+    padding: 12px 28px 12px 28px;
+    border-radius: 33px;
+    background-color: #21B573;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #21B573;
+    transition: .5s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 100%
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #21B573;
+    transition: .5s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 100%
+}
+
+header {
+    background-color: #F0FFF0;
+    min-height: 100vh;
+}
+
+.header-content {
+    padding: 100px 0px;
+}
+
+.header-content .span {
+    color: #FD511A;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.header-content h1 {
+    font-style: normal;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #000000;
+}
+
+.header-content h1 span {
+    color: #21B573;
+}
+
+.header-content p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    font-style: normal;
+    color: #2f2d2d;
+}
+
+.header-content .get-started {
+    color: #fff;
+    background: #21B573;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    border: 1px solid #000000;
+    align-items: center;
+    padding: 12px 36px;
+}
+
+.header-content .get-started:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/*featured section*/
+
+.featured-section {
+    margin: 50px 0px;
+}
+
+.featured-section .featured-content {
+    height: 250px;
+    text-align: center;
+    background: #F8FFFB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.featured-section .featured-content:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.featured-section .featured-content img {
+    height: 30%;
+}
+
+.featured-section .featured-content h3 {
+    color: #413960;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 5px;
+}
+
+.featured-section .featured-content p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.online-courses {
+    margin: 30px 0px 50px 0px;
+}
+
+.online-courses .heading {
+    padding-bottom: 30px;
+}
+
+.online-courses .heading h2 {
+    text-align: center;
+    color: #413960;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.courses-content {
+    height: 400px;
+}
+
+.courses-content img {
+    padding: 10px;
+    width: fit-content;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.courses-content h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    padding-left: 10px;
+}
+
+.courses-content p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    padding-left: 10px;
+}
+
+.courses-content a {
+    background: #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.courses-content a:hover {
+    color: #fff;
+}
+
+.courses-content .icon {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 40px 10px 0px 10px;
+}
+
+.courses-content .icon i {
+    color: #585859;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.courses-content:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/*Testimonial*/
+
+.testimonial {
+    margin: 100px 0px;
+}
+
+.testimonial-heading {
+    padding-bottom: 30px;
+}
+
+.testimonial-heading h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+}
+.testimonial-image {
+    width: 240px;
+    height: 240px;
+    line-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+
+.testimonial-content img {
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.testimonial-speech {
+    padding-left: 20px;
+}
+
+.testimonial-speech p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #282531;
+    min-height: 369px;
+    padding-top: 100px;
+}
+
+footer p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+footer .course .special {
+    font-weight: 500 !important;
+}
+
+footer .course a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1 !important;
+    color: #fff !important;
+    padding-bottom: 2px;
+}
+
+footer .copyright {
+   
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
